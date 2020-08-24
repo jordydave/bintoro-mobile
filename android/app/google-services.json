@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1036119408643",
+    "firebase_url": "https://bintoro-app.firebaseio.com",
+    "project_id": "bintoro-app",
+    "storage_bucket": "bintoro-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036119408643:android:f899c930e4f4c28a03ce36",
+        "android_client_info": {
+          "package_name": "com.corp.bintoro_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036119408643-5lrjfpleeg892nrsiemcga7pveeacsmr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQDIf0VkCbSpsrDUxHYlYTNogpfyhnyQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036119408643-5lrjfpleeg892nrsiemcga7pveeacsmr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
