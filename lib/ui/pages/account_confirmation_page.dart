@@ -52,12 +52,12 @@ class _AccountConfirmationPageState extends State<AccountConfirmationPage> {
                   Text("Welcome",
                       style: blackTextFont.copyWith(
                           fontSize: 16, fontWeight: FontWeight.w300)),
-                  Text(
-                    "${widget.registrationData.name}",
-                    textAlign: TextAlign.center,
-                    style: blackTextFont.copyWith(fontSize: 20),
-                  ),
-                  SizedBox(height: 110),
+                  // Text(
+                  //   "${widget.registrationData.name}",
+                  //   textAlign: TextAlign.center,
+                  //   style: blackTextFont.copyWith(fontSize: 20),
+                  // ),
+                  SizedBox(height: 200),
                   (isSigingUp)
                       ? SpinKitFadingCircle(color: Color(0xFF3E9D9D), size: 45)
                       : SizedBox(

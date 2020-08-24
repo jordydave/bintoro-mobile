@@ -63,20 +63,10 @@ class _PreferencePageState extends State<PreferencePage> {
                         backgroundColor: mainColor,
                         child: Icon(Icons.arrow_forward),
                         onPressed: () {
-                          if (!(alamatController.text.trim() != "")) {
-                            Flushbar(
-                              duration: Duration(milliseconds: 1500),
-                              flushbarPosition: FlushbarPosition.BOTTOM,
-                              backgroundColor: Color(0xFFFF5C83),
-                              message: "Please fill all the fields",
-                            )..show(context);
-                          } else {
-                            widget.registrationData.name =
-                                alamatController.text;
-                            context.bloc<PageBloc>().add(
-                                GoToAccountConfirmationPage(
-                                    widget.registrationData));
-                          }
+                          widget.registrationData.name = alamatController.text;
+                          context.bloc<PageBloc>().add(
+                              GoToAccountConfirmationPage(
+                                  widget.registrationData));
                         },
                       ),
                     ),
